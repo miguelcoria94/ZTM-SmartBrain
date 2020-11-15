@@ -1,5 +1,6 @@
 import React from "react";
 import Tilt from "react-tilt";
+import Brain from "./icons8-loser-80.png";
 import './Logo.css'
 
 const Logo = () => {
@@ -8,9 +9,9 @@ const Logo = () => {
       <Tilt
         className="Tilt br2 shadow-2"
         options={{ max: 25 }}
-        style={{ height: 250, width: 250 }}
+        style={{ height: 50, width: 50 }}
       >
-        <div className="Tilt-inner"> Smartbrain </div>
+        <div className="Tilt-inner"> <img src={Brain} /> </div>
       </Tilt>
     </div>
   );
