@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Navigation from './components/Navigation/navigation'
 
-function App() {
-  return (
-    <h1>Hello world!</h1>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Navigation />
+        {/*<Logo />
+        <ImageLinkForm />
+        <FaceRecognition />*/}
+      </div>
+    )
+  }
 }
 
 export default App;
