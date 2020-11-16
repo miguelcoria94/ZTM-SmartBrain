@@ -1,7 +1,7 @@
 import { largeNumber } from './script2.js'
 
 const a = largeNumber;
-const b = 5;
+const b = 40;
 
 
 console.log(a + b);
