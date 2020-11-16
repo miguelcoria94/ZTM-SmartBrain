@@ -13,7 +13,8 @@ app.listen(3000, () => {
 
 /* 
 / --> res = this is working
-/sign
-
-
+/signin --> POST = succes/fail
+/register --> POST = user
+/profile/:userId --> GET = user
+/image --> PUT --> user
 */
